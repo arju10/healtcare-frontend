@@ -1,7 +1,7 @@
 import { Button } from '@mui/material'
 import React from 'react'
 
-const page = () => {
+const Home = () => {
   return (
     <div>
        <h1>Home : <Button>Text</Button></h1>
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Home
