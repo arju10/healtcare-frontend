@@ -7,7 +7,7 @@ import { useTheme, useMediaQuery } from "@mui/material";
 
 const Navbar = () => {
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md")); // Adjust breakpoint for responsiveness
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
